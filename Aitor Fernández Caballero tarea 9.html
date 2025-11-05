@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacción con Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interacción con Eventos</h1>
+
+    <section>
+        <h2>Haz clic</h2>
+        <button id="botonClick">Haz clic</button>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Cambiador de Imágenes</h2>
+        <img id="imagen" src="https://source.unsplash.com/400x250/?nature" alt="Imagen por defecto">
+        <br>
+        <button id="botonCambiar">Cambiar</button>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Comprobar Edad</h2>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha">
+        <input type="button" value="Comprobar edad" onclick="comprobarEdad()">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
