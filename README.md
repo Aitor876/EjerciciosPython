@@ -1,2 +1,2 @@
-# EjerciciosPython
+# Ejercicios
 Ejercicio 11
